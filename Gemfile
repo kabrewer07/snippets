@@ -30,14 +30,17 @@ gem 'spring',        group: :development
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
-# Code Editor
-gem 'ace-rails-ap'
-
 gem 'travis'
 
 gem 'travis-lint'
 
 gem 'simplecov'
+
+# Code Editor
+gem 'ace-rails-ap'
+gem 'rake'
+
+
 
 # Use unicorn as the app server
 # gem 'unicorn'
